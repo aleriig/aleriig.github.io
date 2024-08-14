@@ -6,7 +6,8 @@
     width: 100%;
     height: 100vh;
     background-color: #000;
-    background-image: linear-gradient(65deg, #525151 0%, #030000 100%);
+    /* background-image: linear-gradient(65deg, #525151 0%, #030000 100%); */
+    background-color: var(--main-black);
 }
 
 #welcome-section h1 {
