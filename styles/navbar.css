@@ -1,0 +1,39 @@
+nav {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+#navbar {
+    position: fixed;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--main-color);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+}
+
+.nav-list a {
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.nav-list a:hover {
+    background-color: var(--main-blue);
+}
+
+
+
