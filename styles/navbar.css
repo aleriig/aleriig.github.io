@@ -32,7 +32,7 @@ ul {
 }
 
 .nav-list a:hover {
-    background-color: var(--main-blue);
+    background-color: var(--main-gray);
 }
 
 
