@@ -17,7 +17,7 @@ body {
 
 footer {
     height: 300px;
-    z-index: 1;
+    background: var(--main-black);
 }
 
 h1, h2 {
@@ -44,7 +44,7 @@ p {
 }
 
 span {
-    color: white;
+    color: var(--main-color);
 }
 
 ul {

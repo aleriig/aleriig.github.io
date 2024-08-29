@@ -28,7 +28,7 @@
 }
 
 .welcome-section > p {
-    color: var(--main-color);
+    color: var(--main-white);
     font-size: 2rem;
     font-weight: 100;
     font-style: italic;
