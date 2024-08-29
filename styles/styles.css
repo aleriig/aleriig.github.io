@@ -17,6 +17,7 @@ body {
 
 footer {
     height: 300px;
+    z-index: 1;
 }
 
 h1, h2 {

@@ -25,7 +25,6 @@
 .welcome-section h1 {
     color: var(--main-white);
     margin-bottom: 30px;
-    z-index: auto;
 }
 
 .welcome-section > p {
@@ -33,7 +32,6 @@
     font-size: 2rem;
     font-weight: 100;
     font-style: italic;
-    z-index: 3;
 }
 
 .code {
