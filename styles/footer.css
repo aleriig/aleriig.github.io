@@ -4,5 +4,15 @@ a.footer {
 
 p.footer {
     color: var(--main-white);
-    margin-top: 100px;
+    margin-top: 30px;
+}
+
+.links {
+    text-align: center;
+}
+
+.links > li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 50px;
 }
