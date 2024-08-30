@@ -13,10 +13,13 @@ body {
     font-weight: 400;
     line-height: 1.4;
     color: var(--main-white);
+    height: auto;
 }
 
 footer {
-    height: 300px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background: var(--main-black);
 }
 
