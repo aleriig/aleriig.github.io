@@ -1,0 +1,40 @@
+
+input[type="text"], 
+input[type="email"] {
+    width: 30%;
+    height: 40px;
+    padding: .25rem;
+    margin: 5px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    font-family: var(--main-font);
+}
+
+input::placeholder {
+    font-family: var(--main-font);
+}
+
+input[type="submit"] {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: var(--main-font);
+}
+
+form {
+    margin-top: 30px;
+}
+
+textarea {
+    width: 30%;
+    padding: .25rem;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 1.25rem;
+    font-family: var(--main-font);
+}
+
+textarea::placeholder {
+    font-family: var(--main-font);
+    font-size: 20px;
+}
