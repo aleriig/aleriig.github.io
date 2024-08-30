@@ -21,7 +21,6 @@
 }
 
 
-
 .welcome-section h1 {
     color: var(--main-white);
     margin-bottom: 30px;
@@ -29,7 +28,7 @@
 
 .welcome-section > p {
     color: var(--main-white);
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-weight: 100;
     font-style: italic;
 }
@@ -59,11 +58,20 @@
     margin-bottom: 6rem;
 }
 
+.projects-grid .project-tile img {
+    filter: grayscale(100%);
+    object-fit: cover;
+}
+
+.projects-grid .project-tile:hover img {
+    filter: none;
+}
+
 .project-image {
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .projects-section {
