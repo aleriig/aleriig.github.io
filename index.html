@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./styles/footer.css">
   <link rel="stylesheet" href="./styles/variables.css">
   <link rel="stylesheet" href="./styles/section.css">
+  <link rel="stylesheet" href="./styles/forms.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -124,23 +125,22 @@
       <li><a href="https://github.com/aleriig" target="_blank"><img src="./images/github.png" alt="github"></a></li>
       <li><a href="https://www.linkedin.com/in/alejo-rios-iglesias-4394b879/" target="_blank"><img src="./images/linkedin.png" alt="linkedin"></a></li>
     </ul>
-    <section>
-      <h2>Email</h2>
-      <form action="mailto:alejoriosiglesias@gmail.com" method="GET" id="subscribe">
+    <section id="form" class="form">
+      <form action="mailto: alejoriosiglesias@gmail.com" method="POST">
         <p>
-          <input type="text" name="first-name" id="first-name" placeholder="First name">
+          <input type="text" name="first-name" id="first-name" placeholder="First name" required>
         </p>
         <p>
-          <input type="text" name="last-name" id="last-name" placeholder="Last name">
+          <input type="text" name="last-name" id="last-name" placeholder="Last name" required>
         </p>
         <p>
-          <input type="text" name="email" id="email" placeholder="What's your email">
+          <input type="email" name="email" id="email" placeholder="What's your email?" required>
         </p>
         <p>
-          <textarea name="your-questions" id="your-questions" cols="30" rows="10" placeholder="Your questions..."></textarea>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
         </p>
         <p>
-          <input type="submit" value="Submit">
+            <input type="submit" value="Send">
         </p>
       </form>
     </section>
